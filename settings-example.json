@@ -1,0 +1,18 @@
+{
+    "ov_hostname": "hostname or IP address of OV e.g. omnivista.home but without https",
+    "ov_username": "admin",
+    "ov_password": "<your ov admin password>",
+    "validate_https_certificate": "no",
+    "send_emails": "yes",
+    "ssid_name": "Stellar Wireless Gäste-WLAN",
+    "email_from": "<your from email address>",
+    "smtp_server": "smtp.gmail.com",
+    "smtp_auth": "yes",
+    "smtp_port": 587,
+    "smtp_user": "<your SMTP login name, often your email_from>",
+    "smtp_password": "<your SMTP password>",
+    "language": "de",
+    "email_to": "<your email_to, if no argv is given>",
+    "guest_prefix": "gast_",
+    "guest_duration_in_days": 31
+}

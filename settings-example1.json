@@ -1,0 +1,8 @@
+{
+    "ov_hostname": "hostname or IP address of OV e.g. omnivista.home but without https",
+    "ov_username": "admin",
+    "ov_password": "<your ov admin password>",
+    "validate_https_certificate": "no",
+    "ap_groups": [ "Hamburg" ],
+    "ssid": "DIGITALPAKT-WLAN"
+}
