@@ -1,5 +1,5 @@
 # stellar-add-guest
-stellar-add-guest is a small tool to generate a new guest for Stellar Wireless (Enterprise mode) in OmniVista 2500
+stellar-add-guest is a small tool to generate a new guest for Stellar Wireless (Enterprise mode) in OmniVista 2500 hosted on OmniSwitch with AOS Release 8.
 
 ## Overview (meant to be executed on OmniSwitch with access to OmniVista 2500)
 ![image](https://user-images.githubusercontent.com/5174414/150031492-3dbfc95d-4b2c-4882-a074-0547b2645a79.png)
