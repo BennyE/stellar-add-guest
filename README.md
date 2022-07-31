@@ -41,10 +41,21 @@ Router-> python3 /flash/python/stellar-add-guest.py <email-address@mailaddressdo
 [*] Connection to omnivista.home successful!
 ````
 ## Language set to English (settings.json -> "language": "en") 
-![image](https://user-images.githubusercontent.com/5174414/150029499-7d9003d2-8e34-4867-880e-d698b7adffb0.png)
+- language = "en"
+- send_psk_via_mail = "yes"
+- print_cleartext_psk" = "yes"
+![Screenshot 2022-07-31 at 21 30 00](https://user-images.githubusercontent.com/5174414/182043022-911f68d2-d47b-4250-8219-33acd8f5ba22.png)
 
 ## Language set to German (settings.json -> "language": "de") 
-![image](https://user-images.githubusercontent.com/5174414/150029836-2f4997ac-7808-4c60-9de1-73c1fa7c6931.png)
+- language = "de"
+- send_psk_via_mail = "yes"
+- print_cleartext_psk" = "no"
+![Screenshot 2022-07-31 at 21 11 07](https://user-images.githubusercontent.com/5174414/182043031-9bef3ec7-9df2-4404-8b73-5e19b2ee87fa.png)
 
 ## New functions in this branch/release
-
+- Adds QR Code feature request (Issue #1 - https://github.com/BennyE/stellar-add-guest/issues/1)
+ - Set "send_psk_via_mail" to "no" if you don't want a QR Code 
+- Adds "runs_on_omniswitch" setting, to comment/uncomment less lines depending on OmniSwitch (AOS R8) or standard environment
+- Adds simple check against undesireable words in random guest username / password (you may want to modify this)
+- Modified all .format() to more modern Python f-Strings
+- HTML mail looks slightly better in Apple Mail now
