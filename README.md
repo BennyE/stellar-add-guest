@@ -53,7 +53,7 @@ Router-> python3 /flash/python/stellar-add-guest.py <email-address@mailaddressdo
 ![Screenshot 2022-07-31 at 21 11 07](https://user-images.githubusercontent.com/5174414/182043031-9bef3ec7-9df2-4404-8b73-5e19b2ee87fa.png)
 
 ## New functions in this branch/release
-- Adds QR Code feature request (Issue #1 - https://github.com/BennyE/stellar-add-guest/issues/1)
+- Adds QR Code feature request (Issue https://github.com/BennyE/stellar-add-guest/issues/1)
  - Set "send_psk_via_mail" to "no" if you don't want a QR Code 
 - Adds "runs_on_omniswitch" setting, to comment/uncomment less lines depending on OmniSwitch (AOS R8) or standard environment
 - Adds simple check against undesireable words in random guest username / password (you may want to modify this)
